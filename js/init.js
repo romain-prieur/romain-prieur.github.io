@@ -226,7 +226,9 @@ createPie(".pieID.legend", ".pieID.pie");
 }(jQuery, window));
 
 
-
+$(".jira").inViewport(function(px){
+    if(px) $(this).addClass("triggeredCSS3") ;
+});
 $(".html5").inViewport(function(px){
     if(px) $(this).addClass("triggeredCSS3") ;
 });

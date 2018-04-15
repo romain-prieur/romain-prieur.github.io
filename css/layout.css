@@ -361,11 +361,17 @@ ul#nav li.current a { color: #F06000; }
     animation:css 2s;
     -webkit-animation:css 2s;
 }
+.jira.triggeredCSS3 {
+    width: 70%;
+    -moz-animation: jira 2s ease;
+    -webkit-animation: jira 2s ease;
+    background: #33CC66;
+}
 .html5.triggeredCSS3 {
     width: 90%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
-    background: #33CC66;
+    background: #fdc000;
 }
 .javascript.triggeredCSS3 {
     width: 75%;
@@ -414,6 +420,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+@-moz-keyframes jira {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -438,6 +448,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-webkit-keyframes jira {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
