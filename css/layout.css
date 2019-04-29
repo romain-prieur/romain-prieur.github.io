@@ -362,13 +362,13 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation:css 2s;
 }
 .jira.triggeredCSS3 {
-    width: 70%;
+    width: 85%;
     -moz-animation: jira 2s ease;
     -webkit-animation: jira 2s ease;
     background: #33CC66;
 }
 .html5.triggeredCSS3 {
-    width: 90%;
+    width: 75%;
     -moz-animation: html5 2s ease;
     -webkit-animation: html5 2s ease;
     background: #fdc000;
@@ -380,13 +380,13 @@ ul#nav li.current a { color: #F06000; }
     background: #FF6666;
 }
 .sql.triggeredCSS3 {
-    width: 65%;
+    width: 80%;
     -moz-animation: sql 2s ease;
     -webkit-animation: sql 2s ease;
     background: #3399FF;
 }
 .css.triggeredCSS3 {
-    width: 60%;
+    width: 70%;
     -moz-animation: css 2s ease;
     -webkit-animation: css 2s ease;
     background: #6666CC;
@@ -410,7 +410,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes english {
   0%   { width: 0px;  }
@@ -418,15 +418,15 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes jira {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes MSBI {
   0%   { width: 0px;  }
@@ -439,7 +439,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes english {
   0%   { width: 0px;  }
@@ -447,15 +447,15 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes jira {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes MSBI {
   0%   { width: 0px;  }
